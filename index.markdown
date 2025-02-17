@@ -10,4 +10,4 @@ At Aperture Leatherworks, we pride ourselves on creating high-quality leather pr
 ## Our Story
 Our journey started with a passion for craftsmanship and the art of leatherworking. Every product we create tells a story of dedication to quality and design.
 
-[Explore our products](#products)
+[Explore our products](./products)
