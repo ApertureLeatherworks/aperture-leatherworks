@@ -4,13 +4,13 @@ title: Products
 ---
 
 <div class="product-container">
-  <h1>Our Products</h1>
-  <p>Explore our handmade leather products designed for style, quality, and durability.</p>
+  <h1>Our Handmade Leather Products</h1>
+  <p>Explore our exclusive collection of handcrafted leather goods, made with the finest materials for durability and style.</p>
 
   <div class="product-grid">
     <div class="product-item">
       <h2>Leather Wallet</h2>
-      <p>Handcrafted from the finest leather, these wallets are built to last and age beautifully over time.</p>
+      <p>Handcrafted from premium leather, this wallet is both sleek and durable. Perfect for everyday use.</p>
       <!-- Stripe Buy Button for Leather Wallet -->
       <a href="https://buy.stripe.com/your-wallet-checkout-link" class="stripe-checkout-button">
         Buy Now for £45.00
@@ -19,10 +19,19 @@ title: Products
 
     <div class="product-item">
       <h2>Leather Belt</h2>
-      <p>Our leather belts combine traditional craftsmanship with a contemporary touch, making them the perfect accessory for any occasion.</p>
+      <p>This high-quality leather belt is designed to last and only gets better with age.</p>
       <!-- Stripe Buy Button for Leather Belt -->
       <a href="https://buy.stripe.com/your-belt-checkout-link" class="stripe-checkout-button">
         Buy Now for £35.00
+      </a>
+    </div>
+
+    <div class="product-item">
+      <h2>Leather Keychain</h2>
+      <p>Our leather keychain makes a great gift, combining practicality and elegance.</p>
+      <!-- Stripe Buy Button for Leather Keychain -->
+      <a href="https://buy.stripe.com/your-keychain-checkout-link" class="stripe-checkout-button">
+        Buy Now for £15.00
       </a>
     </div>
   </div>
