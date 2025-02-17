@@ -1,7 +1,7 @@
 title: Aperture Leatherworks
 description: "Exclusively Handmade Leather Goods"
-baseurl: "/aperture-leatherworks"  # URL path for the subfolder
-url: "https://apertureleatherworks.github.io"  # GitHub Pages URL
+url: "https://apertureleatherworks.github.io"
+baseurl: "/aperture-leatherworks"  # The subfolder your site is hosted in
 markdown: kramdown
 theme: jekyll-theme-primer
 plugins:
