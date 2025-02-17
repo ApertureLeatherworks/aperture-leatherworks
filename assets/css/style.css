@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,51 +6,94 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
+  padding: 0 15px;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 10px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
-header nav ul li {
-  display: inline;
-  margin-right: 15px;
-}
-
-header nav ul li a {
-  color: #fff;
+a {
   text-decoration: none;
+  color: #0066cc;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Main Content */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+/* Footer */
 footer {
   text-align: center;
-  padding: 20px;
   background-color: #333;
-  color: white;
-  margin-top: 20px;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 40px;
 }
 
-/* Styling the page */
-main {
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
+/* Links */
+a {
+  color: #0066cc;
+  transition: color 0.3s ease;
 }
 
-h1 {
-  color: #333;
+a:hover {
+  color: #003366;
 }
 
-p {
-  margin-bottom: 20px;
+/* Responsive Layout */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 15px;
+  }
 }

@@ -1,4 +1,9 @@
-title: "Aperture Leatherworks"
-baseurl: ""  # Leave empty if your site is at the root (not in a subfolder)
-url: "https://apertureleatherworks.github.io"  # This is your GitHub Pages URL
-baseurl: "/aperture-leatherworks"  # For a subfolder-based GitHub Pages site
+title: Aperture Leatherworks
+description: "Exclusively Handmade Leather Goods"
+baseurl: "" # Leave this empty for GitHub Pages root
+url: "https://apertureleatherworks.github.io" # Change this to your actual domain URL if it's hosted elsewhere
+markdown: kramdown
+theme: jekyll-theme-primer
+
+# Google Analytics or any other tracking codes can go here
+google_analytics: "UA-XXXXXXX-X"

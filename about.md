@@ -1,12 +1,18 @@
 ---
 layout: default
-title: About
+title: "About | Aperture Leatherworks"
 ---
-
 # About Aperture Leatherworks
+**Exclusively Handmade in England**
 
-At **Aperture Leatherworks**, we believe in the beauty of craftsmanship. Every product we make is carefully designed and hand-stitched to ensure durability and elegance. 
+We believe in the art of handcrafted leather goods. At Aperture Leatherworks, we combine traditional techniques with modern design to produce leather products that are timeless and unique.
 
-We pride ourselves on using only the finest materials, sourced responsibly, and crafted with skill in our workshop in England.
+Our artisans craft each piece with meticulous attention to detail, using only the finest materials. We are committed to sustainability, quality, and supporting the local community.
 
-Our mission is to create timeless leather pieces that improve with age and use.
+## Our Mission
+To provide leather goods that not only last a lifetime but tell a story with every stitch.
+
+## Our Process
+Each product goes through an intricate process of selection, design, crafting, and finishing. From raw leather to the final product, no step is overlooked.
+
+[Contact us](#contact) to learn more.
