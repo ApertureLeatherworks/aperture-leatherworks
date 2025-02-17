@@ -7,9 +7,8 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
+  <!-- Navbar -->
   <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.slogan }}</p>
     <nav>
       <ul>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
@@ -20,12 +19,14 @@
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
-    {{ content }} <!-- Page content goes here -->
+    {{ content }}
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Aperture Leatherworks. All rights reserved.</p>
+    <p>&copy; {{ site.year }} Aperture Leatherworks. Exclusively Handmade in England.</p>
   </footer>
 </body>
 </html>

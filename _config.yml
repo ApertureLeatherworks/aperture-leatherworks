@@ -4,3 +4,12 @@ baseurl: "/aperture-leatherworks"  # URL path for the subfolder
 url: "https://apertureleatherworks.github.io"  # GitHub Pages URL
 markdown: kramdown
 theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+
+# Ensure Jekyll doesn't treat the "products" folder as a collection or anything else
+exclude:
+  - README.md
+  - LICENSE
+  - assets/css
+  - assets/images
