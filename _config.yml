@@ -11,5 +11,3 @@ plugins:
 exclude:
   - README.md
   - LICENSE
-  - assets/css
-  - assets/images
