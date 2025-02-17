@@ -1,61 +1,106 @@
-/* General Body and Layout */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+/* General Reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
 }
 
-h1, h2, h3 {
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
   color: #333;
+  padding-top: 60px; /* Ensures content doesn't hide under header */
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 /* Product Container */
 .product-container {
-  width: 80%;  /* Limit the width to 80% of the screen */
-  max-width: 1200px; /* Set a maximum width */
-  margin: 0 auto; /* Center content */
-  padding: 2rem 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
 }
 
-/* Product Items */
+.product-container h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.product-container p {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Product Item */
 .product-item {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background-color: #fafafa;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .product-item h2 {
-  color: #222;
+  font-size: 1.75rem;
+  color: #333;
   margin-bottom: 1rem;
 }
 
 .product-item p {
   color: #555;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
 
 .stripe-checkout-button {
   display: inline-block;
-  background-color: #007bff; /* Button color */
-  color: #fff;
-  padding: 12px 25px;
-  font-size: 16px;
-  text-decoration: none;
+  background-color: #ff4081;
+  color: white;
+  padding: 15px 30px;
   border-radius: 5px;
-  text-align: center;
-  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin-top: 1rem;
 }
 
 .stripe-checkout-button:hover {
-  background-color: #0056b3;
+  background-color: #e93370;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .stripe-checkout-button:focus {
@@ -65,18 +110,19 @@ h1, h2, h3 {
 /* Instagram Section */
 .instagram-link {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .instagram-link p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #333;
   margin-bottom: 1rem;
 }
 
 .instagram-icon {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-top: 1rem;
   transition: transform 0.3s ease;
 }
@@ -88,15 +134,16 @@ h1, h2, h3 {
 /* Responsive Design */
 @media (max-width: 768px) {
   .product-container {
-    width: 95%;
-    padding: 1rem;
+    width: 90%;
+    padding: 2rem;
   }
 
   .product-item {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .stripe-checkout-button {
-    padding: 10px 20px;
+    font-size: 1rem;
+    padding: 12px 25px;
   }
 }
