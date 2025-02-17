@@ -1,25 +1,27 @@
 ---
 layout: default
-title: "Products | Aperture Leatherworks"
+title: Products
 ---
+
 # Our Products
+Explore our handmade leather products designed for style, quality, and durability.
 
-At Aperture Leatherworks, we offer a range of exclusive handmade leather products, crafted with care in England. Click below to view and purchase.
+### Leather Wallets
+Handcrafted from the finest leather, these wallets are built to last and age beautifully over time.
 
-<div class="products">
-  <div class="product">
-    <img src="/assets/img/wallet.jpg" alt="Leather Wallet">
-    <h2>Handmade Leather Wallet</h2>
-    <p>£50.00</p>
-    <a href="https://buy.stripe.com/test_checkout_link" class="button">Buy Now</a>
-  </div>
+<!-- Stripe Buy Button for Leather Wallet -->
+<a href="https://buy.stripe.com/test_7sI4jcbWA9xy8xO8ww" class="stripe-checkout-button">
+  Buy Now for £45.00
+</a>
 
-  <div class="product">
-    <img src="/assets/img/belt.jpg" alt="Leather Belt">
-    <h2>Classic Leather Belt</h2>
-    <p>£75.00</p>
-    <a href="https://buy.stripe.com/test_checkout_link" class="button">Buy Now</a>
-  </div>
-</div>
+### Leather Belts
+Our leather belts combine traditional craftsmanship with a contemporary touch, making them the perfect accessory for any occasion.
 
-For custom orders, please [Contact us](./contact).
+<!-- Stripe Buy Button for Leather Belt -->
+<a href="https://buy.stripe.com/your-belt-checkout-link" class="stripe-checkout-button">
+  Buy Now for £35.00
+</a>
+
+### Custom Orders
+If you'd like to request a custom item, please [contact us]({{ site.baseurl }}/contact) for further details.
+
