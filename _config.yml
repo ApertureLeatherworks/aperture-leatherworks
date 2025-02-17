@@ -1,7 +1,7 @@
 title: Aperture Leatherworks
 description: "Exclusively Handmade Leather Goods"
 url: "https://www.apertureleatherworks.co.uk"
-baseurl: "/aperture-leatherworks"  # The subfolder your site is hosted in
+baseurl: ""  # The subfolder your site is hosted in
 markdown: kramdown
 theme: jekyll-theme-primer
 plugins:
