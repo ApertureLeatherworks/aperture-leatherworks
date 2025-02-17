@@ -3,23 +3,14 @@ layout: default
 title: Home
 ---
 
-<header class="hero">
-    <h1>Aperture Leatherworks</h1>
-    <p class="slogan">Exclusively Handmade in England</p>
-</header>
+# Welcome to Aperture Leatherworks
 
-<section class="intro">
-    <p>Welcome to Aperture Leatherworks, where craftsmanship meets tradition. Our handmade leather goods are crafted with precision, passion, and care in England.</p>
-</section>
+We specialize in **exclusively handmade leather goods**, crafted with care in the heart of England.
 
-<section class="products">
-    {% for product in site.data.products %}
-    <div class="product">
-        <img src="{{ product.image }}" alt="{{ product.name }}">
-        <h3>{{ product.name }}</h3>
-        <p>{{ product.description }}</p>
-        <p>Price: £{{ product.price }}</p>
-        <a href="{{ product.stripe_link }}" class="cta">Buy Now</a>
-    </div>
-    {% endfor %}
-</section>
+- Handmade wallets
+- Custom leather bags
+- Hand-stitched accessories
+
+Our products reflect the passion and attention to detail that goes into each piece.
+
+Explore our collection and find something that fits your style!
