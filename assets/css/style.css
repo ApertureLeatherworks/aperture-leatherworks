@@ -1,4 +1,4 @@
-/* General Reset */
+/* Reset some basic styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,90 +7,210 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8;
+  background-color: #fafafa;
   color: #333;
-  margin: 0;
-  padding-top: 60px; /* Ensures content is below a fixed header */
 }
 
 h1, h2 {
+  font-family: 'Georgia', serif;
   font-weight: bold;
+  color: #333;
   margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #333;
-  text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #444;
-  text-align: center;
-}
-
-/* Product Container */
-.product-container {
+/* Main container styling */
+.container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  padding: 3rem 1rem;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 3rem;
+}
+
+header .logo img {
+  max-height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #ff4081;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #ff4081;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: #444;
+}
+
+.home-container p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.cta-button {
+  background-color: #ff4081;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #e93370;
 }
 
 /* Product Grid */
-.product-grid {
+.product-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
 }
 
-/* Product Item */
 .product-item {
   background-color: #fff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
-  position: relative;
 }
 
 .product-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Stripe Button */
 .stripe-checkout-button {
   background-color: #ff4081;
   color: white;
   padding: 15px 30px;
-  border-radius: 6px;
-  font-size: 1.2rem;
+  border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  display: inline-block;
   margin-top: 15px;
 }
 
 .stripe-checkout-button:hover {
   background-color: #e93370;
-  transform: scale(1.05);
 }
 
-/* Contact Page */
-.contact-container {
-  width: 90%;
-  max-width: 800px;
+.instagram-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.instagram-link img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-link img:hover {
+  transform: scale(1.1);
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #ff4081;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: #e93370;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
