@@ -1,0 +1,20 @@
+---
+layout: default
+title: Products
+---
+
+<h2>Our Products</h2>
+<p>Each piece is meticulously crafted using the finest leather, ensuring quality and durability.</p>
+
+<section class="products">
+    {% for product in site.data.products %}
+    <div class="product">
+        <img src="{{ product.image }}" alt="{{ product.name }}">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <p>Price: £{{ product.price }}</p>
+        <a href="{{ product.stripe_link }}" class="cta">Buy Now</a>
+    </div>
+    {% endfor %}
+</section>
+
