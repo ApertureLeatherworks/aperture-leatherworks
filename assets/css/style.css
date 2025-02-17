@@ -67,19 +67,6 @@ h2 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Product Item Text */
-.product-item h2 {
-  font-size: 1.75rem;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.product-item p {
-  color: #555;
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-}
-
 /* Stripe Button */
 .stripe-checkout-button {
   background-color: #ff4081;
@@ -98,45 +85,6 @@ h2 {
   transform: scale(1.05);
 }
 
-/* Instagram Section */
-.instagram-link {
-  margin-top: 3rem;
-}
-
-.instagram-link p {
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.instagram-icon {
-  width: 60px;
-  height: 60px;
-  margin-top: 10px;
-  transition: transform 0.3s ease;
-}
-
-.instagram-icon:hover {
-  transform: scale(1.1);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .product-container {
-    width: 95%;
-    padding: 2rem;
-  }
-
-  .product-item {
-    padding: 1.5rem;
-  }
-
-  .stripe-checkout-button {
-    font-size: 1rem;
-    padding: 12px 25px;
-  }
-}
-
 /* Contact Page */
 .contact-container {
   width: 90%;
@@ -145,104 +93,4 @@ h2 {
   padding: 3rem 1.5rem;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.contact-container h1, .contact-container h2 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.contact-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 2rem;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  width: 100%;
-}
-
-.contact-form button.submit-button {
-  background-color: #ff4081;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 6px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form button.submit-button:hover {
-  background-color: #e93370;
-}
-
-.contact-info {
-  margin-top: 2rem;
-  font-size: 1.1rem;
-}
-
-.contact-info a {
-  color: #ff4081;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-
-/* About Page */
-.about-container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-.about-container h1, .about-container h2 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.about-container p {
-  color: #555;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.footer-container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-footer p {
-  font-size: 1.1rem;
-}
-
-footer a {
-  color: #ff4081;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
+  box-shadow: 0 6px 

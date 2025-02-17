@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- SEO and Feed plugins -->
+  <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
+
 <body>
-  <!-- Navbar -->
-  <header>
-    <nav>
-      <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>  
-  </header>
 
-  <!-- Main Content -->
-  <main>
-    {{ content }}
-  </main>
+  {% include header.html %}
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; {{ site.year }} Aperture Leatherworks. Exclusively Handmade in England.</p>
-  </footer>
+  <div class="main-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+
+  {% include footer.html %}
+
 </body>
 </html>
