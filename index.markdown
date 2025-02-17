@@ -1,10 +1,15 @@
 ---
 layout: default
-title: "Home | Aperture Leatherworks"
+title: Aperture Leatherworks
 ---
-# Welcome to Aperture Leatherworks
-**Exclusively Handmade in England**
 
-At Aperture Leatherworks, we take pride in crafting high-quality leather goods by hand, right here in England. Each product is made with the finest leather, designed for style and durability.
+<header>
+    <h1>Aperture Leatherworks</h1>
+    <p>Exclusively Handmade in England</p>
+</header>
 
-[Explore our products](./products)
+<div class="container">
+    <h2>Welcome to Aperture Leatherworks</h2>
+    <p>We craft the finest handmade leather goods using traditional techniques.</p>
+    <a href="/products" class="button">View Our Collection</a>
+</div>
