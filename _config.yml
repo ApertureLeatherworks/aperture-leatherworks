@@ -1,5 +1,5 @@
 title: Aperture Leatherworks
 description: Exclusively Handmade in England
 url: "https://apertureleatherworks.github.io"
-baseurl: "/aperture-leatherworks"
+baseurl: ""
 theme: jekyll-theme-minimal  # You can use another theme or create your own
