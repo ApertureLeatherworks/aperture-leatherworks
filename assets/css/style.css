@@ -1,4 +1,4 @@
-/* General body and layout */
+/* General Body and Layout */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -7,67 +7,46 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
-  background-color: #333;
-  padding: 1rem;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li {
-  margin: 0;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-}
-
-header nav ul li a:hover {
-  background-color: #575757;
-}
-
-/* Page content */
-main {
-  padding: 2rem;
-}
-
 h1, h2, h3 {
   color: #333;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+/* Product Container */
+.product-container {
+  width: 80%;  /* Limit the width to 80% of the screen */
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center content */
+  padding: 2rem 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-footer p a {
-  color: #fff;
-  text-decoration: none;
+/* Product Items */
+.product-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-footer p a:hover {
-  text-decoration: underline;
+.product-item h2 {
+  color: #222;
+  margin-bottom: 1rem;
 }
 
-/* Custom style for Stripe buttons */
+.product-item p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
 .stripe-checkout-button {
   display: inline-block;
-  background-color: #007bff; /* Change to your preferred color */
+  background-color: #007bff; /* Button color */
   color: #fff;
-  padding: 10px 20px;
+  padding: 12px 25px;
   font-size: 16px;
   text-decoration: none;
   border-radius: 5px;
@@ -76,9 +55,48 @@ footer p a:hover {
 }
 
 .stripe-checkout-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
 }
 
 .stripe-checkout-button:focus {
   outline: none;
+}
+
+/* Instagram Section */
+.instagram-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.instagram-link p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.instagram-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.instagram-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-container {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .product-item {
+    padding: 1rem;
+  }
+
+  .stripe-checkout-button {
+    padding: 10px 20px;
+  }
 }
