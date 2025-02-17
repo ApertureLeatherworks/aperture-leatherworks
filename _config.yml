@@ -1,5 +1,4 @@
-title: Aperture Leatherworks
-description: Exclusively Handmade in England
-url: "https://apertureleatherworks.github.io"
-baseurl: "/aperture-leatherworks"
-theme: jekyll-theme-minimal  # You can use another theme or create your own
+title: "Aperture Leatherworks"
+baseurl: ""  # Leave empty if your site is at the root (not in a subfolder)
+url: "https://apertureleatherworks.github.io"  # This is your GitHub Pages URL
+baseurl: "/aperture-leatherworks"  # For a subfolder-based GitHub Pages site
