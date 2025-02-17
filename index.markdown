@@ -5,9 +5,6 @@ title: "Home | Aperture Leatherworks"
 # Welcome to Aperture Leatherworks
 **Exclusively Handmade in England**
 
-At Aperture Leatherworks, we pride ourselves on creating high-quality leather products crafted by hand in England. Each item is made with precision and care, ensuring both durability and beauty.
-
-## Our Story
-Our journey started with a passion for craftsmanship and the art of leatherworking. Every product we create tells a story of dedication to quality and design.
+At Aperture Leatherworks, we take pride in crafting high-quality leather goods by hand, right here in England. Each product is made with the finest leather, designed for style and durability.
 
 [Explore our products](./products)

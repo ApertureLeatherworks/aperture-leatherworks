@@ -1,6 +1,6 @@
 title: Aperture Leatherworks
 description: "Exclusively Handmade Leather Goods"
-baseurl: "/aperture-leatherworks"  # Set this to the subfolder path
+baseurl: "/aperture-leatherworks"  # URL path for the subfolder
 url: "https://apertureleatherworks.github.io"  # GitHub Pages URL
 markdown: kramdown
 theme: jekyll-theme-primer

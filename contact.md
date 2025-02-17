@@ -2,18 +2,14 @@
 layout: default
 title: "Contact | Aperture Leatherworks"
 ---
-# Contact Aperture Leatherworks
-**Exclusively Handmade in England**
+# Contact Us
 
-We'd love to hear from you! Whether you have a question about our products, need assistance, or want to get in touch for custom orders, we're here to help.
-
-You can reach us via the following methods:
+We'd love to hear from you! Whether you have a question about our products or would like to discuss custom orders, feel free to reach out.
 
 ### Email:
 - **info@apertureleatherworks.co.uk**
 
-Or fill out the form below to send us a message directly:
+### Phone:
+- **+44 (0)123 456 7890**
 
-**Contact form functionality** (such as form submissions) requires integration with a service or backend (e.g., using a contact form API). For now, you can link to an email or provide your contact information.
-
-[Go back to the homepage](#)
+[Back to Homepage](./)
