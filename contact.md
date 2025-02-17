@@ -28,7 +28,7 @@ title: Contact Us | Aperture Leatherworks"
     <h3>Email</h3>
     <p><a href="mailto:info@apertureleatherworks.co.uk">info@apertureleatherworks.co.uk</a></p>
 
-    <h3>Follow Us</h3>
-    <p>
-        <a href="https://instagram.com/apertureleatherworks" target="_blank">Instagram</a> |
-        <a href="https://
+<h3>Follow Us</h3>
+<p>
+    <a href="https://www.instagram.com/apertureleatherworks" target="_blank" rel="noopener noreferrer">Instagram</a>
+</p>
