@@ -36,9 +36,13 @@ header {
 }
 
 header .logo img {
-  max-height: 50px; /* Adjust the max-height to make the logo smaller */
-  width: auto; /* Keep the aspect ratio of the logo intact */
+  max-height: 50px; /* Adjust as needed */
+  width: 50px; /* Ensure a perfect circle */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image fills the circular area properly */
+  border: 2px solid white; /* Optional: Adds a subtle border */
 }
+
 
 
 nav ul {
